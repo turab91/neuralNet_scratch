@@ -9,10 +9,13 @@ The functions will perform faster if we use data in batches.
 # Train Dataset
 - AND.ipynb contains a simple model to approximate a AND gate. Since outputs of AND gate are linearly separable
 we can model it using a linear model.
+![](https://github.com/turab91/neuralNetwork/blob/master/images/and.png)
 - XOR.ipynb contains a simple model to approximate a XOR gate. Sine output of XOR gate are non-linear, we had to 
 use non-linear function in the model.
+![](https://github.com/turab91/neuralNetwork/blob/master/images/xor.png)
 - moon.ipynb contains a simple model to approximate the moon dataset from scikit-learn. The data set is non-linear
 and more complex than the XOR gate. hence we need to use more neurons and preferably more layers.
+![](https://github.com/turab91/neuralNetwork/blob/master/images/moon.png)
 
 # comment on learning rate and number of hidden units
 - learning rate is a hyper parameter. we have seen that choosing good learning rate can help optimize the model
